@@ -1,0 +1,181 @@
+CRITICAL - 2021-08-17 10:28:49 --> Call to a member function hasError() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:29:36 --> Call to a member function getError() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:30:06 --> syntax error, unexpected 'isset' (T_ISSET), expecting '('
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#2 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-17 10:30:54 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-17 10:31:37 --> Call to a member function getError() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:34:02 --> Call to a member function library() on null
+#0 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(900): App\Controllers\Student->__construct()
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-17 10:35:50 --> Call to a member function library() on null
+#0 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(900): App\Controllers\Student->__construct()
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-17 10:36:07 --> Call to a member function getError() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:40:19 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:40:29 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:41:48 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:41:52 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:42:16 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:42:48 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:43:24 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:44:02 --> Call to a member function listErrors() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:46:13 --> Call to a member function hasError() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-17 10:46:56 --> Call to a member function hasError() on null
+#0 D:\xampp\htdocs\ci4_demo\system\View\View.php(230): include()
+#1 D:\xampp\htdocs\ci4_demo\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\ci4_demo\system\Common.php(1271): CodeIgniter\View\View->render('add', Array, true)
+#3 D:\xampp\htdocs\ci4_demo\app\Controllers\Student.php(17): view('add')
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Student->index()
+#5 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#9 {main}

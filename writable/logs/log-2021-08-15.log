@@ -1,0 +1,24 @@
+CRITICAL - 2021-08-15 19:43:13 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\ci4_demo\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\ci4_demo\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-08-15 19:45:19 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\ci4_demo\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\ci4_demo\public\index.php(28): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-08-15 19:45:45 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\ci4_demo\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\ci4_demo\spark(46): require('D:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-08-15 19:46:09 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\xampp\htdocs\ci4_demo\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 D:\xampp\htdocs\ci4_demo\spark(46): require('D:\\xampp\\htdocs...')
+#4 {main}
